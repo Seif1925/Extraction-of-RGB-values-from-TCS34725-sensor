@@ -2,21 +2,6 @@
 
 This project demonstrates how to extract accurate RGB values from the TCS34725 color sensor using an NVIDIA Jetson Nano. The system leverages **sensor calibration** (via a lookup table) and **machine learning** (K-Nearest Neighbors algorithm) to improve the reliability of color detection in real-world scenarios. Below is a comprehensive guide to understanding, replicating, and extending this project.
 
----
-
-## Table of Contents
-1. [Project Overview](#project-overview)
-2. [Key Features](#key-features)
-3. [Hardware Requirements](#hardware-requirements)
-4. [Software Dependencies](#software-dependencies)
-5. [Installation & Setup](#installation--setup)
-6. [Calibration & Workflow](#calibration--workflow)
-7. [Usage](#usage)
-8. [Project Structure](#project-structure)
-9. [Troubleshooting](#troubleshooting)
-10. [Contributing](#contributing)
-11. [License](#license)
-12. [Acknowledgements](#acknowledgements)
 
 ---
 
