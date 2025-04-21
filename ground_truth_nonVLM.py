@@ -5,7 +5,7 @@ import numpy as np
 from collections import deque
 import webcolors
 class OptimizedCameraRGB:
-    def __init__(self, camera_index=0):
+    def __init__(self, camera_index=0):  # Switch camera index if your Laptop/Edge device is connected to more than one camera
         self.cap = cv2.VideoCapture(camera_index)
         if not self.cap.isOpened():
             raise IOError("Cannot open camera")
